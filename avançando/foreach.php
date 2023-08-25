@@ -1,21 +1,21 @@
 <?php
 
 $contasCorrentes = [
-   12345678910 => [
+   '123.456.789-10' => [
        'titular' => 'Vinicius',
        'saldo' => '1000'
    ],
-   12345678911 =>  [
+   '123.456.789-11' =>  [
     'titular' => 'Maria',
     'saldo' => '10000'
     ],
-   12345678912 => [
+   '123.456.789-12' => [
     'titular' => 'João',
     'saldo' => '100000'
     ]
 ];
 
-$contasCorrentes [] = [
+$contasCorrentes ['090.456.988-87'] = [
     'titular' => 'Claudia',
     'saldo' => '20000'
 ];
