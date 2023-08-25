@@ -7,6 +7,8 @@ $array = [
     true => 'd'
 ];
 
+
+
 foreach ($array as $item){
     echo $item . PHP_EOL;
 }
