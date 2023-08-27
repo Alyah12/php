@@ -15,7 +15,7 @@ $contasCorrentes = [
     ]
 ];
 
-$contasCorrentes ['090.456.988-87'] = [
+$contasCorrentes [] = [
     'titular' => 'Claudia',
     'saldo' => '20000'
 ];

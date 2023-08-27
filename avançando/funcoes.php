@@ -25,6 +25,8 @@ function depositar (array $conta, float $valorADepositar): array
     return $conta;
 }
 
-function titularComLetrasMaiusculas (array $conta){
-
+function titularComLetrasMaiusculas (array &$conta){
+   $conta['titular'] = mb_strtoupper($conta['titular']);
 }
+
+// Passagens por referência são perigosas, pois dão acesso total a uma função de modificar livremente um dado.
