@@ -6,6 +6,10 @@ $array = [
     2 => 'tres'
 ];
 
-foreach ($array as $nomeNumero){
-    echo $nomeNumero . PHP_EOL;
+$contador = 0;
+foreach ($array as $numeral => $nomeNumero){
+    echo "$numeral em português é: $nomeNumero" . PHP_EOL;
+    $contador ++;
 }
+
+echo "Total: " . count($array) . PHP_EOL;

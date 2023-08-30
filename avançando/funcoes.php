@@ -12,7 +12,7 @@ function sacar (array $conta, float $valorASacar)
 
 function exibeMensagem (string $mensagem): void
 {
-    echo $mensagem . PHP_EOL;
+    echo $mensagem . '<br>';
 }
 
 function depositar (array $conta, float $valorADepositar): array
@@ -30,3 +30,8 @@ function titularComLetrasMaiusculas (array &$conta){
 }
 
 // Passagens por referência são perigosas, pois dão acesso total a uma função de modificar livremente um dado.
+
+function exibeConta(array $conta)
+{
+    echo "<li>Titular: $conta[titular]. Saldo {$conta['saldo']}</li>";
+}
