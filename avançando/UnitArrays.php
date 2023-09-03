@@ -14,6 +14,10 @@ $novosAlunos = [
     8 => 'Julia',
 ];
 
-$alunos2024 = $alunos2023 + $novosAlunos;
+// Unpacking e Spread
+
+$alunos2024 = [...$alunos2023,'Carlos Vinicius', ...$novosAlunos];
+array_push($alunos2024, 'Aline', 'Samuel', 'Daniel');
+$alunos2024[] = 'Lucas';
 
 var_dump($alunos2024);
