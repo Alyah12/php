@@ -20,4 +20,6 @@ $alunos2024 = [...$alunos2023,'Carlos Vinicius', ...$novosAlunos];
 array_push($alunos2024, 'Aline', 'Samuel', 'Daniel');
 $alunos2024[] = 'Lucas';
 
+array_unshift($alunos2024, 'Sabrina', 'Rafaela');
+
 var_dump($alunos2024);
